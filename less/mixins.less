@@ -1,0 +1,28 @@
+// Mixins in here
+
+
+.displayFlexRow(@flexdirection, @widthpercent){
+    display: flex;
+    flex-direction: @flexdirection;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: @widthpercent;
+    margin: 0 auto;
+    margin-top: 35px;
+    border-bottom: 2px dashed @navigation-border;
+}
+.marginLeftAndBottom(@left, @bottom){
+    margin-left: @left;
+    margin-bottom: @bottom;
+}
+.buttonStyling(@bg-color, @ft-color, @b-radius, @paddingpercent, @widthpercent){
+    background-color: @bg-color;
+    color: @ft-color;
+    border-radius: @b-radius;
+    height: 50px;
+    padding: @paddingpercent;
+    text-align: center;
+    font-size: 2rem;
+    width: @widthpercent;
+}

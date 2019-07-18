@@ -218,7 +218,21 @@ body .flexBox .collapseBox .collapseFlex .selector button {
   margin: 0% 0% 0% 0%;
   bottom: 0;
 }
+body .flexBox .collapseBox .collapseFlex .selector .addButton:focus {
+  background-color: lightgreen;
+  border-color: black;
+}
+body .flexBox .collapseBox .collapseFlex .selector .deleteButton:focus {
+  background-color: red;
+  border-color: black;
+}
+body .flexBox .collapseBox .collapseFlex .selector .accessButton:focus {
+  background-color: lightgreen;
+  border-color: black;
+}
 body .flexBox .collapseBox .collapseFlex .inputSelect {
-  width: 100%;
+  width: 80%;
   height: 100%;
+  margin: 0 auto;
+  text-align: center;
 }

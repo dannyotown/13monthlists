@@ -190,6 +190,7 @@ body .flexBox .collapseBox {
   background: white;
   position: absolute;
   bottom: 0;
+  z-index: 1;
 }
 body .flexBox .collapseBox button {
   margin: 0.2% 0% 0% 1%;
@@ -198,4 +199,27 @@ body .flexBox .collapseBox button {
   width: 98%;
   height: 55px;
   border: white none;
+}
+body .flexBox .collapseBox .collapseFlex {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 800px;
+  background-color: white;
+}
+body .flexBox .collapseBox .collapseFlex .selector {
+  margin: 0% 5% 0% 5%;
+  border-right: solid black 1px;
+  height: 100%;
+}
+body .flexBox .collapseBox .collapseFlex .selector button {
+  background: white;
+  border: solid 1px gray;
+  border-radius: 0;
+  margin: 25% 0% 25% 0%;
+}
+body .flexBox .collapseBox .collapseFlex .inputSelect {
+  width: 80%;
+  height: 100%;
+  font-size: 6rem;
+  font-weight: bold;
 }
